@@ -1,0 +1,16 @@
+*{box-sizing: border-box; margin: 0;padding: 0; }
+.dropdown{display: inline-block; position: relative; width: 32.33%;}
+.dropdown-content, .dropdown-link{display: none; position: absolute; background: #ddd; padding: 1rem;}
+.dropdown:hover .dropdown-content{display: block;}
+.btn{border: none; background: #4caf50; padding: 0.5rem 1rem;}
+.dropdown-link a{display: block; color: #333;text-decoration: none; padding:0.75rem;}
+.btn:hover + .dropdown-link{display: block;}
+.image{display: none; position: absolute;}
+.dropdown:hover .image{display: block;min-width: 200px;}
+/*------- navbar----------*/
+ul{list-style: none;background: #ccc;font-size: 0;margin-top: 1rem; position: relative;}
+li{display: inline-block;}
+li a { font: 1rem/1.5 'Roboto'; text-decoration: none; text-transform: capitalize; padding: 0.5rem 1rem; display: block;color: #333; }
+.dropdown-menu{display: none;position: absolute;background:#ccc ;}
+.navlist:hover, .dropbtn:hover, .dropdown-menu a:hover{background: #4caf50;}
+.drop-nav:hover .dropdown-menu{display: block;}
